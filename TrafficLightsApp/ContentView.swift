@@ -37,21 +37,10 @@ struct ContentView: View {
                     opacity: greenLightCondition
                 )
                 Spacer()
-                Button(action: startButtonPressed) {
-                    buttonStyle
-                }
+                ButtonView(buttonTitle: buttonTitle, action: startButtonPressed)
                 .padding()
             }
         }
-    }
-    private var buttonStyle: some View {
-        Text(buttonTitle)
-            .font(.title)
-            .foregroundColor(.white)
-            .frame(width: 150, height: 50)
-            .background(Color.blue)
-            .cornerRadius(10)
-            .overlay(RoundedRectangle(cornerRadius: 10).stroke(Color.white, lineWidth: 3))
     }
 }
 

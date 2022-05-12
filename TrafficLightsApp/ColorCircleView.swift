@@ -9,17 +9,17 @@ import SwiftUI
 
 struct ColorCircleView: View {
     
-    @ScaledMetric var size: CGFloat = 0.9
+    @ScaledMetric var size: CGFloat = 0.5
     
     let color: Color
     let opacity: Double
+        
     var body: some View {
         Circle()
             .foregroundColor(color.opacity(opacity))
-//            .frame(width: 150 * size, height: 150 * size)
+            .frame(width: 200 * size, height: 200 * size)
             .overlay(Circle().stroke(Color.white, lineWidth: 3))
             .padding(5)
-            .frame(minWidth: .infinity, idealWidth: <#T##CGFloat?#>, maxWidth: <#T##CGFloat?#>, minHeight: <#T##CGFloat?#>, idealHeight: <#T##CGFloat?#>, maxHeight: <#T##CGFloat?#>, alignment: <#T##Alignment#>)
     }
 }
 

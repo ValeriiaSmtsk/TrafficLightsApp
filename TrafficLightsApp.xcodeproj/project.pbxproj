@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B037C4C282DCF2B00E7BF7E /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B037C4B282DCF2B00E7BF7E /* ButtonView.swift */; };
 		5B664D3E282D5B3E00E0B7C7 /* TrafficLightsAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B664D3D282D5B3E00E0B7C7 /* TrafficLightsAppApp.swift */; };
 		5B664D40282D5B3E00E0B7C7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B664D3F282D5B3E00E0B7C7 /* ContentView.swift */; };
 		5B664D42282D5B4000E0B7C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B664D41282D5B4000E0B7C7 /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5B037C4B282DCF2B00E7BF7E /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		5B664D3A282D5B3E00E0B7C7 /* TrafficLightsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrafficLightsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B664D3D282D5B3E00E0B7C7 /* TrafficLightsAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficLightsAppApp.swift; sourceTree = "<group>"; };
 		5B664D3F282D5B3E00E0B7C7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 				5B664D41282D5B4000E0B7C7 /* Assets.xcassets */,
 				5B664D43282D5B4000E0B7C7 /* Preview Content */,
 				5B664D4B282D5F0E00E0B7C7 /* ColorCircleView.swift */,
+				5B037C4B282DCF2B00E7BF7E /* ButtonView.swift */,
 			);
 			path = TrafficLightsApp;
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 			files = (
 				5B664D4C282D5F0E00E0B7C7 /* ColorCircleView.swift in Sources */,
 				5B664D40282D5B3E00E0B7C7 /* ContentView.swift in Sources */,
+				5B037C4C282DCF2B00E7BF7E /* ButtonView.swift in Sources */,
 				5B664D3E282D5B3E00E0B7C7 /* TrafficLightsAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
